@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "E-portfolio" },
+      { name: "description", content: "A modern, responsive portfolio website for an IT student, showcasing projects, skills, and contact information." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "E-portfolio" },
+      { property: "og:description", content: "A modern, responsive portfolio website for an IT student, showcasing projects, skills, and contact information." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "E-portfolio" },
+      { name: "twitter:description", content: "A modern, responsive portfolio website for an IT student, showcasing projects, skills, and contact information." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a614fe6b-3cd8-4bc1-aa6d-c7607d521433/id-preview-d51afc5b--29598cb1-4671-479b-b697-0d06c5a2828a.lovable.app-1778076523177.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a614fe6b-3cd8-4bc1-aa6d-c7607d521433/id-preview-d51afc5b--29598cb1-4671-479b-b697-0d06c5a2828a.lovable.app-1778076523177.png" },
     ],
     links: [
       {
