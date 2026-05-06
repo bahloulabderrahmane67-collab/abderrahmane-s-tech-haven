@@ -1,6 +1,6 @@
 import { Section } from "./Section";
 import { projects } from "@/data/portfolio";
-import { Github, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 export function Projects() {
   return (
@@ -30,12 +30,6 @@ export function Projects() {
                 </span>
               ))}
             </div>
-            <a
-              href={p.github}
-              className="inline-flex items-center gap-2 text-xs text-muted-foreground hover:text-primary transition"
-            >
-              <Github size={14} /> Code source
-            </a>
           </article>
         ))}
       </div>
