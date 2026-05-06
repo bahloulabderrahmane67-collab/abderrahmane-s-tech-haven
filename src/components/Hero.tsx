@@ -71,8 +71,8 @@ export function Hero() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 glass rounded-lg p-3 font-mono text-xs">
-                <div className="text-primary">{"> whoami"}</div>
-                <div className="text-foreground/80">dev_student@iut-maubeuge</div>
+                <div className="text-primary">BAHLOUL ABDERRAHMANE</div>
+                <div className="text-foreground/80 break-all">bahloulabderrahmande67@gmail.com</div>
               </div>
             </div>
           </div>
