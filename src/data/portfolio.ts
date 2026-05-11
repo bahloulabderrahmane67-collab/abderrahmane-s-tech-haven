@@ -59,11 +59,4 @@ export const experiences = [
   },
 ];
 
-export const interests = [
-  { label: "Basketball", icon: "🏀" },
-  { label: "Course à pied", icon: "🏃" },
-  { label: "Jeux vidéo", icon: "🎮" },
-  { label: "Game Dev", icon: "🕹️" },
-  { label: "Nouvelles tech", icon: "⚡" },
-  { label: "Cybersécurité", icon: "🛡️" },
-];
+export const interests = [{ label: "Basketball" }];
