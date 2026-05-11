@@ -36,14 +36,13 @@ export function Experience() {
       </Section>
 
       <Section id="interests" eyebrow="06 — Hors code" title="Centres d'intérêt">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+        <div className="flex justify-center">
           {interests.map((i) => (
             <div
               key={i.label}
-              className="glass rounded-xl p-5 text-center hover:border-primary/50 hover:-translate-y-1 transition"
+              className="glass rounded-2xl px-10 py-6 text-center hover:border-primary/50 hover:-translate-y-1 transition"
             >
-              <div className="text-3xl mb-2">{i.icon}</div>
-              <p className="text-xs font-medium">{i.label}</p>
+              <p className="text-base font-medium">{i.label}</p>
             </div>
           ))}
         </div>
