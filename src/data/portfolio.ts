@@ -59,4 +59,11 @@ export const experiences = [
   },
 ];
 
-export const interests = [{ label: "Basketball" }];
+export const interests = [
+  { label: "Basketball" },
+  { label: "Musculation" },
+  { label: "Voyages" },
+  { label: "Cybersécurité" },
+  { label: "Jeux vidéo" },
+  { label: "Lecture tech" },
+];
